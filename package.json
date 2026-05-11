@@ -1,17 +1,26 @@
 {
-  "name": "bs5-simple-starter",
+  "name": "corsovue",
   "version": "1.0.0",
-  "description": "Simple workflow for working with and customizing Bootstrap 5",
-  "main": "index.js",
+  "description": "Corso template converted to Vue with styled components",
+  "private": true,
   "scripts": {
-    "sass:build": "sass --no-source-map scss:css",
-    "sass:watch": "sass --no-source-map --watch scss:css"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "author": "Brad Traversy",
+  "author": "",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "bootstrap": "^5.2.3",
-    "sass": "^1.62.0"
+    "vue": "^3.2.47",
+    "vue3-styled-components": "^1.2.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
   }
 }
